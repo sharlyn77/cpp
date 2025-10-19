@@ -13,6 +13,7 @@ cout <<"1.celcious to Fahrenheit\n";
 cout <<"2.Fahrenheit to celcious\n";
 cout <<"3.celcious to kelvin\n";
 cout <<"4.kelvin to celcious  \n";
+cout <<"5.exit  \n";
 
 
 cout << "Enter choice number: ";
@@ -55,13 +56,17 @@ case 4:
     cout <<"\nThe value of celcious:"<<celcious<<endl;
     break;
 
+case 5:
+    cout <<"\nexit from the program\n:"<<exit<<endl;
+    break;
 
-    default:
+
+default:
     cout <<"\n Invalid! You press a wrong number. Please, enter a valid number. Thanks for your patience."<<endl;
 
 }
 
-}while(choice!=3);
+}while(choice!=5);
 
 
 }
